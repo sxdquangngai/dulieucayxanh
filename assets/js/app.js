@@ -1,6 +1,6 @@
 var config = {
   csv: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
-  title: "Bản đồ dữ liệu cây xanh tỉnh Quảng Ngãi",
+  title: "Bản đồ cây xanh tỉnh Quảng Ngãi",
   layerName: "cây xanh",
   hoverProperty: "road",
   sortProperty: "road",
