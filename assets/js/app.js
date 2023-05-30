@@ -704,13 +704,13 @@ if (document.body.clientWidth <= 767) {
   isCollapsed = false;
 }
 var baseLayers = {
-  "Street Map": mapboxOSM,
-  "Aerial Imagery": mapboxSat
+  "Đường phố": mapboxOSM,
+  "Ảnh vê tinh": mapboxSat
 };
 var overlayLayers = {
   "<span id='layer-name'>GeoJSON Layer</span>": featureLayer
 };
-var layerControl = L.control.layers(baseLayers, overlayLayers, {
+var layerControl = L.control.layers(baseLayers, overlayLayers, overlayLayers, {
   collapsed: isCollapsed
 }).addTo(map);
 
